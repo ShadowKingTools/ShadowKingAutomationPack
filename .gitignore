@@ -4,6 +4,8 @@
 .DS_Store
 Thumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+*.lnk
 
 # =========================
 # Logs
@@ -11,27 +13,37 @@ Desktop.ini
 *.log
 
 # =========================
-# VS Code
+# VS Code (local settings)
 # =========================
 .vscode/
 
 # =========================
-# PowerShell / tooling temp
+# PowerShell / tooling temp files
 # =========================
 *.tmp
 *.bak
 
 # =========================
 # Archives / build outputs (optional)
-# (keep these out of source control)
 # =========================
 dist/
 out/
 build/
+bin/
+obj/
+*.zip
+*.7z
 
 # =========================
 # Secrets (never commit)
 # =========================
-*.env
 .env
+.env.*
 secrets.*
+*.key
+*.pem
+*.pfx
+*.kdbx
+*.sqlite
+*.db
+*.config.local
