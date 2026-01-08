@@ -1,0 +1,37 @@
+# =========================
+# OS / junk files
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PowerShell / tooling temp
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Archives / build outputs (optional)
+# (keep these out of source control)
+# =========================
+dist/
+out/
+build/
+
+# =========================
+# Secrets (never commit)
+# =========================
+*.env
+.env
+secrets.*
