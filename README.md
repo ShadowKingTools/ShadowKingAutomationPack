@@ -1,23 +1,19 @@
-# OS / junk
-.DS_Store
-Thumbs.db
-Desktop.ini
+# ShadowKingAutomationPack
 
-# Logs
-*.log
+User-triggered PowerShell/.bat routines for repeatable Windows gaming + workflow setups.
 
-# VS Code
-.vscode/
+## What this is
+A small toolkit of scripts that runs only when the user launches it (no background service).
 
-# PowerShell / tooling
-*.tmp
-*.bak
+## Routines (WIP)
+- SessionPrep
+- LaunchStack
+- PerformanceProfile
+- CleanupSession
+- RestoreBaseline
 
-# Archives/build outputs (optional)
-dist/
-out/
-build/
-
-# Secrets (never commit)
-*.env
-secrets.*
+## Safety / trust
+- Source is public
+- Clear diffs between releases
+- Each routine includes a short “what this changes” section
+- (Planned) -WhatIf / dry-run mode for routines that modify settings
