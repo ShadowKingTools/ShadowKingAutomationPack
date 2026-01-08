@@ -48,3 +48,5 @@ Write-Log "Backup directory (planned): $BackupDir"
 Write-Log "No restore actions performed."
 
 Write-Log "=== RestoreBaseline END ==="
+exit 0
+
