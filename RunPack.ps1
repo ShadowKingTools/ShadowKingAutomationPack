@@ -46,8 +46,11 @@ function Run-Step {
   }
 
   Write-Log "---- START: $Name ($ScriptFile) ----"
-  & $Path @(
-    if ($VerboseLog) { "-VerboseLog" }
+  if ($VerboseLog) {
+  & $Path -VerboseLog
+} else {
+  & $Path
+}
   )
   Write-Log "---- END:   $Name ----"
 }
