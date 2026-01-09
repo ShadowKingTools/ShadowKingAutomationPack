@@ -51,7 +51,7 @@ function Run-Step {
 } else {
   & $Path
 }
-  )
+  
   Write-Log "---- END:   $Name ----"
 }
 
