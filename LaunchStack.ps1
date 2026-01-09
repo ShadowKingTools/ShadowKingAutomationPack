@@ -10,3 +10,4 @@ Write-Host "LaunchStack: starting..." -ForegroundColor Cyan
 # Start-Process "C:\Windows\System32\notepad.exe"
 
 Write-Host "LaunchStack: done (no apps launched yet)." -ForegroundColor Yellow
+exit 0
