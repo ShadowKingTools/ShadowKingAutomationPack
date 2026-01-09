@@ -9,3 +9,4 @@ Write-Host ("Computer: " + $env:COMPUTERNAME)
 Write-Host ("User: " + $env:USERNAME)
 
 Write-Host "SessionPrep: done." -ForegroundColor Green
+exit 0
