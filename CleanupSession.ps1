@@ -64,3 +64,4 @@ catch {
 #>
 
 Write-Log "=== CleanupSession END ==="
+exit 0
