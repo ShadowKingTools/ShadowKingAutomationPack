@@ -7,3 +7,4 @@ Write-Host "PerformanceProfile: starting..." -ForegroundColor Cyan
 # Keep this safe + simple for now.
 
 Write-Host "PerformanceProfile: done (no system changes yet)." -ForegroundColor Yellow
+exit 0
